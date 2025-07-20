@@ -1,11 +1,62 @@
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* If you are not using Tailwind CSS, remove these lines. Otherwise, ensure your build process supports Tailwind. */
+
+/* Custom scrollbar for chatbot */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Dark mode scrollbar adjustments */
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Eye-friendly mode scrollbar adjustments */
+.eyeFriendly .custom-scrollbar::-webkit-scrollbar-track {
+  background: #fdf6e3; /* Lighter yellow */
+}
+
+.eyeFriendly .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #b58900; /* Darker yellow/brown */
+}
+
+.eyeFriendly .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #cb4b16; /* Even darker, more orange */
+}
+
+/* Animation for chatbot widget */
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.3s ease-out forwards;
 }
