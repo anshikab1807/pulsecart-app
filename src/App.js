@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ShoppingCart, User, Home, Store, LayoutGrid, Phone, HelpCircle, FileText, CheckCircle, Star, Quote, ChevronRight, Plane, Hotel, Tag, Search, XCircle, DollarSign, Briefcase, Users, MessageSquare, Minimize2, Maximize2, Brain, Moon, Sun, Camera } from 'lucide-react'; // Added Camera icon
 
-// Product data for the category page - Added numericPrice for calculation
+// Product data for the category page 
 const productCategories = [
   {
     name: "Electronics",
@@ -72,7 +72,7 @@ const productCategories = [
   },
 ];
 
-// Example sale products (used for home page sections) - Added numericPrice for calculation
+// Example sale products 
 const saleProducts = [
   { name: "Noise Smartwatches", price: "₹1,099", numericPrice: 1099, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/FFD1DC/E91E63?text=Watch" },
   { name: "Fastrack Smartwatches", price: "₹1,399", numericPrice: 1399, discount: "Upto 60% Off", imageUrl: "https://placehold.co/150x150/D1FFD1/4CAF50?text=Fastrack" },
@@ -138,7 +138,7 @@ const locationData = [
   { city: "Hyderabad", state: "Telangana", pincode: "500001" },
 ];
 
-// AR Products (for demonstration purposes - these should ideally be transparent PNGs)
+// AR Products 
 const arProducts = [
   { id: 'tshirt-1', name: 'Blue T-Shirt', imageUrl: 'https://placehold.co/200x200/ADD8E6/000000?text=Blue+T-Shirt' },
   { id: 'watch-1', name: 'Smart Watch', imageUrl: 'https://placehold.co/100x100/A0A0A0/FFFFFF?text=Smart+Watch' },
@@ -148,7 +148,7 @@ const arProducts = [
 ];
 
 
-// Component to show when login is required
+//  login is required
 const LoginRequiredMessage = ({ onNavigateToLogin, theme }) => {
   const bgColor = theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-100');
   const cardBg = theme === 'dark' ? 'bg-gray-900' : (theme === 'eyeFriendly' ? 'bg-yellow-100' : 'bg-white');
@@ -190,7 +190,7 @@ const LoginPage = ({ onLoginSuccess, onNavigateToHome, theme }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // For demonstration, login always succeeds with hardcoded credentials
+    //  login always succeeds with hardcoded credentials
     onLoginSuccess();
   };
 
@@ -525,7 +525,7 @@ const PlaneBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
   const handleSearchFlights = () => {
     // Simulate flight booking
     onBookingSuccess("Flight booked successfully!");
-    // onNavigateToHome(); // No longer navigate to home immediately, let the success page handle it
+    
   };
 
   return (
@@ -571,7 +571,7 @@ const HotelBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
   const handleSearchHotels = () => {
     // Simulate hotel booking
     onBookingSuccess("Hotel booked successfully!");
-    // onNavigateToHome(); // No longer navigate to home immediately, let the success page handle it
+    // onNavigateToHome();
   };
 
   return (
@@ -802,7 +802,7 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
 };
 
 
-// Full-screen Order/Booking Success Page
+// Booking Success Page
 const OrderSuccessPage = ({ message, onNavigateToHome, theme }) => {
   const [feedback, setFeedback] = useState('');
 
@@ -815,7 +815,7 @@ const OrderSuccessPage = ({ message, onNavigateToHome, theme }) => {
   const handleSubmitFeedback = () => {
     console.log("User feedback:", feedback);
     alert("Thank you for your valuable feedback!"); // Simple alert for feedback submission
-    setFeedback(''); // Clear feedback after submission
+    setFeedback('');
   };
 
   return (
@@ -855,7 +855,7 @@ const OrderSuccessPage = ({ message, onNavigateToHome, theme }) => {
 };
 
 
-// Carousel Component for Home Page Banners
+// 
 const Carousel = ({ navigateTo, theme }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
