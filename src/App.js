@@ -74,58 +74,59 @@ const productCategories = [
 
 // Example sale products 
 const saleProducts = [
-  { name: "Noise Smartwatches", price: "₹1,099", numericPrice: 1099, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/FFD1DC/E91E63?text=Watch" },
-  { name: "Fastrack Smartwatches", price: "₹1,399", numericPrice: 1399, discount: "Upto 60% Off", imageUrl: "https://placehold.co/150x150/D1FFD1/4CAF50?text=Fastrack" },
-  { name: "Printers", price: "₹10,999", numericPrice: 10999, discount: "Upto 50% Off", imageUrl: "https://placehold.co/150x150/D1E7FF/2196F3?text=Printer" },
-  { name: "Top Mirrorless Cameras", price: "₹50,000", numericPrice: 50000, discount: "Best Deals", imageUrl: "https://placehold.co/150x150/FFF3CD/FFC107?text=Camera" },
-  { name: "Best Selling Mobiles", price: "From ₹499*", numericPrice: 499, discount: "Great Value", imageUrl: "https://placehold.co/150x150/FFDCDC/F44336?text=Mobile" },
-  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/DCDCDC/607D8B?text=Coffee" },
-  { name: "Best of Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Toys" },
-  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://placehold.co/150x150/B2EBF2/00BCD4?text=Gym" },
-  { name: "Top Selling Stationery", price: "₹49", numericPrice: 49, imageUrl: "https://placehold.co/150x150/FFECB3/FF9800?text=Stationery" },
-  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Cycle" },
-  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://placehold.co/150x150/F8BBD0/E91E63?text=Food" },
-  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/C5CAE9/3F51B5?text=RCToys" },
+  { name: "Noise Smartwatches", price: "₹1,099", numericPrice: 1099, discount: "Upto 70% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.3oHy_estvZ5_Nk5D1MR3MwAAAA?pid=Api&P=0&h=180" },
+  { name: "Fastrack Smartwatches", price: "₹1,399", numericPrice: 1399, discount: "Upto 60% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.9Z_HOYIBag6HmtQbkEpLogAAAA?pid=Api&P=0&h=180" },
+  { name: "Printers", price: "₹10,999", numericPrice: 10999, discount: "Upto 50% Off", imageUrl: "https://tse2.mm.bing.net/th/id/OIP.BSSMmHpCTD4umTXyhojLfgHaFj?pid=Api&P=0&h=180" },
+  { name: "Top Mirrorless Cameras", price: "₹50,000", numericPrice: 50000, discount: "Best Deals", imageUrl: "https://tse2.mm.bing.net/th/id/OIP.cUzWc_zmfZ-Rs6WcLDv-ugHaE8?pid=Api&P=0&h=180" },
+  { name: "Best Selling Mobiles", price: "From ₹499*", numericPrice: 499, discount: "Great Value", imageUrl: "https://www.91-cdn.com/hub/wp-content/uploads/2023/07/top-phone-brands-h1-2023-feat.png?tr=w-781" },
+  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.KVcIlbRpEk-VEv0oAwh9rAHaFj?pid=Api&P=0&h=180" },
+  { name: "Best of Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://i.ytimg.com/vi/j-MVnO4BiNM/maxresdefault.jpg" },
+  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://i.pinimg.com/originals/e8/ee/6d/e8ee6d81ad3960b7c0994c1e4d8d1279.png" },
+  { name: "Top Selling Stationery", price: "₹49", numericPrice: 49, imageUrl: "https://i.pinimg.com/originals/f7/49/8d/f7498d400fb24fa1794a275af595b815.jpg" },
+  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, discount: "Upto 70% Off", imageUrl: "http://5.imimg.com/data5/SELLER/Default/2023/4/300708881/YV/OY/YG/80979251/24-20230406-183611-0002.jpg" },
+  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://thumbs.dreamstime.com/z/assorted-foods-spread-table-various-types-food-neatly-displayed-creating-diverse-colorful-meal-ai-generative-318274200.jpg" },
+  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://i5.walmartimages.com/asr/66566337-34d4-4cd5-8688-5a9c829a9bfd.89760ed5d8d88a663c649f4610221522.jpeg" },
 ];
 
 const beautyFoodToysProducts = [
-  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/DCDCDC/607D8B?text=Coffee" },
-  { name: "Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Action+Toys" },
-  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://placehold.co/150x150/F8BBD0/E91E63?text=Food+Spreads" },
-  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/C5CAE9/3F51B5?text=RC+Toys" },
-  { name: "Makeup Kits", price: "₹299", numericPrice: 299, imageUrl: "https://placehold.co/150x150/FFC0CB/C2185B?text=Makeup" },
-  { name: "Organic Snacks", price: "₹150", numericPrice: 150, imageUrl: "https://placehold.co/150x150/D4EDDA/28A745?text=Snacks" },
+  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.KVcIlbRpEk-VEv0oAwh9rAHaFj?pid=Api&P=0&h=180" },
+  { name: "Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://i.ytimg.com/vi/j-MVnO4BiNM/maxresdefault.jpg" },
+  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://thumbs.dreamstime.com/z/assorted-foods-spread-table-various-types-food-neatly-displayed-creating-diverse-colorful-meal-ai-generative-318274200.jpg" },
+  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://i5.walmartimages.com/asr/66566337-34d4-4cd5-8688-5a9c829a9bfd.89760ed5d8d88a663c649f4610221522.jpeg" },
+  { name: "Makeup Kits", price: "₹299", numericPrice: 299, imageUrl: "https://m.media-amazon.com/images/I/814xlZfpO0L.jpg" },
+  { name: "Organic Snacks", price: "₹150", numericPrice: 150, imageUrl: "https://down-id.img.susercontent.com/file/id-11134207-7r98s-lwttp6wsbm1n83" },
 ];
 
 const sportsHealthcareProducts = [
-  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://placehold.co/150x150/B2EBF2/00BCD4?text=Gym+Essentials" },
-  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Geared+Cycles" },
-  { name: "Yoga Mats", price: "₹600", numericPrice: 600, imageUrl: "https://placehold.co/150x150/FFE0B2/FF9800?text=Yoga+Mats" },
-  { name: "Protein Supplements", price: "₹1,500", numericPrice: 1500, imageUrl: "https://placehold.co/150x150/DCEDC8/8BC34A?text=Protein" },
-  { name: "Running Shoes", price: "₹999", numericPrice: 999, imageUrl: "https://placehold.co/150x150/BBDEFB/2196F3?text=Running+Shoes" },
-  { name: "First Aid Kits", price: "₹250", numericPrice: 250, imageUrl: "https://placehold.co/150x150/FFCDD2/F44336?text=First+Aid" },
+  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://i.pinimg.com/originals/e8/ee/6d/e8ee6d81ad3960b7c0994c1e4d8d1279.png" },
+  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/cycle/u/x/w/shimano-geared-cycles-for-men-with-front-suspension-dual-disc-original-imah3nmyk9hhx5cq.jpeg?q=70" },
+  { name: "Yoga Mats", price: "₹600", numericPrice: 600, imageUrl: "https://microless.com/cdn/products/e4eb8bbf4b63a85018b2de5e8ad2533f-hi.jpg" },
+  { name: "Protein Supplements", price: "₹1,500", numericPrice: 1500, imageUrl: "https://wallpapers.com/images/hd/variety-protein-supplements-containers-xjufhfgepltsncbv.png" },
+  { name: "Running Shoes", price: "₹999", numericPrice: 999, imageUrl: "https://urbanfitshoes.com/cdn/shop/products/IMG_9430_1800x1800.jpg?v=1634149154" },
+  { name: "First Aid Kits", price: "₹250", numericPrice: 250, imageUrl: "https://uoflhealth.org/wp-content/uploads/2021/11/First-Aid-kit.jpg" },
 ];
 
 const mobileProducts = [
-  { name: "Latest Smartphones", price: "₹7,999", numericPrice: 7999, imageUrl: "https://placehold.co/150x150/D1FFD1/4CAF50?text=Smartphone" },
-  { name: "Budget Phones", price: "₹1,200", numericPrice: 1200, imageUrl: "https://placehold.co/150x150/FFDCDC/F44336?text=Budget+Phone" },
-  { name: "Mobile Accessories", price: "₹99", numericPrice: 99, imageUrl: "https://placehold.co/150x150/E0E7FF/4F46E5?text=Accessories" },
-  { name: "Power Banks", price: "₹1,000", numericPrice: 1000, imageUrl: "https://placehold.co/150x150/FFF3CD/FFC107?text=Power+Bank" },
+  { name: "Latest Smartphones", price: "₹7,999", numericPrice: 7999, imageUrl: "https://i.ytimg.com/vi/TD0Are31diM/maxresdefault.jpg" },
+  { name: "Budget Phones", price: "₹1,200", numericPrice: 1200, imageUrl: "https://i.ytimg.com/vi/8b89cH4Jc4U/maxresdefault.jpg" },
+  { name: "Mobile Accessories", price: "₹99", numericPrice: 99, imageUrl: "https://nsg.com.pk/wp-content/uploads/2022/12/mobile-phone-accessories.png" },
+  { name: "Power Banks", price: "₹1,000", numericPrice: 1000, imageUrl: "https://cdn.trendhunterstatic.com/thumbs/516/iniu-powernova.jpeg?auto=webp" },
 ];
 
 const fashionProducts = [
-  { name: "Men's Casual Wear", price: "₹750", numericPrice: 750, imageUrl: "https://placehold.co/150x150/D1E7FF/2196F3?text=Men+Fashion" },
-  { name: "Women's Ethnic Wear", price: "₹499", numericPrice: 499, imageUrl: "https://placehold.co/150x150/FFD1DC/E91E63?text=Women+Fashion" },
-  { name: "Kids' Collection", price: "₹300", numericPrice: 300, imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Kids+Fashion" },
-  { name: "Footwear Deals", price: "₹800", numericPrice: 800, imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Footwear" },
+  { name: "Men's Casual Wear", price: "₹750", numericPrice: 750, imageUrl: "https://outfitspotter.com/wp-content/uploads/different-smart-casual-outfits-for-men.jpg" },
+  { name: "Women's Ethnic Wear", price: "₹499", numericPrice: 499, imageUrl: "https://cdn.shopify.com/s/files/1/0612/3670/7497/files/drbhsfrynjsty_beautiful_women_wearing_anarkali_suit_1c0b7355-9291-426a-9c03-e4e071bdc997_1024x1024.png?v=1674742110" },
+  { name: "Kids' Collection", price: "₹300", numericPrice: 300, imageUrl: "https://www.imcgrupo.com/wp-content/uploads/2023/04/Keep-Up-With-the-Latest-Trends-in-Childrens-Clothing-Online-01.jpg" },
+  { name: "Footwear Deals", price: "₹800", numericPrice: 800, imageUrl: "https://www.popoptiq.com/wp-content/uploads/2019/01/4-25-1-870x646.jpg" },
 ];
 
 const groceryProducts = [
-  { name: "Fresh Fruits & Veggies", price: "₹120", numericPrice: 120, imageUrl: "https://placehold.co/150x150/DCEDC8/8BC34A?text=Groceries" },
-  { name: "Dairy & Bakery", price: "₹250", numericPrice: 250, imageUrl: "https://placehold.co/150x150/BBDEFB/2196F3?text=Dairy" },
-  { name: "Staples & Pulses", price: "₹500", numericPrice: 500, imageUrl: "https://placehold.co/150x150/FFCDD2/F44336?text=Staples" },
-  { name: "Snacks & Beverages", price: "₹80", numericPrice: 80, imageUrl: "https://placehold.co/150x150/FFE0B2/FF9800?text=Snacks" },
+  { name: "Fresh Fruits & Veggies", price: "₹120", numericPrice: 120, imageUrl: "https://www.perfection.com.au/hs-fs/hubfs/Produce_LR_Category_Proprietary%20Fruit%20and%20Vegetables%20Group_Styled_2022_03%20(1).jpg?width=2250&name=Produce_LR_Category_Proprietary%20Fruit%20and%20Vegetables%20Group_Styled_2022_03%20(1).jpg" },
+  { name: "Dairy & Bakery", price: "₹250", numericPrice: 250, imageUrl: "https://cdn2.vectorstock.com/i/1000x1000/20/01/bakery-and-dairy-products-vector-35712001.jpg" },
+  { name: "Staples & Pulses", price: "₹500", numericPrice: 500, imageUrl: "https://www.livemint.com/lm-img/img/2024/12/18/600x338/2-0-432719404-Pulses1-0_1680684487190_1734508325889.JPG" },
+  { name: "Snacks & Beverages", price: "₹80", numericPrice: 80, imageUrl: "https://www.brookfieldengineering.in/-/media/ametekbrookfield/applications-graphs-and-images/texture--application-notes/food-and--beverages/food-and-beverages-application-notes-image.jpg?la=en-in&revision=4375a9cb-30ab-49e3-838d-0d7b81bc4056&hash=338EDF629E502E3653216720EF88A352" },
 ];
+
 
 // Dummy location data for auto-fill
 const locationData = [
@@ -140,13 +141,12 @@ const locationData = [
 
 // AR Products 
 const arProducts = [
-  { id: 'tshirt-1', name: 'Blue T-Shirt', imageUrl: 'https://placehold.co/200x200/ADD8E6/000000?text=Blue+T-Shirt' },
-  { id: 'watch-1', name: 'Smart Watch', imageUrl: 'https://placehold.co/100x100/A0A0A0/FFFFFF?text=Smart+Watch' },
-  { id: 'glasses-1', name: 'Sunglasses', imageUrl: 'https://placehold.co/150x50/333333/FFFFFF?text=Sunglasses' },
-  { id: 'dress-1', name: 'Red Dress', imageUrl: 'https://placehold.co/200x300/FF6347/FFFFFF?text=Red+Dress' },
-  { id: 'cap-1', name: 'Baseball Cap', imageUrl: 'https://placehold.co/150x100/4CAF50/FFFFFF?text=Baseball+Cap' },
+  { id: 'tshirt-1', name: 'Blue T-Shirt', imageUrl: 'https://www.shirtagent.de/images/product_images/original_images/regent-t-shirt-duck-blue-vorne_0.jpg' },
+  { id: 'watch-1', name: 'Smart Watch', imageUrl: 'https://acc.qiqiyg.com/upfile/product/202411/Patek%20Philippe%20watch%20150%20(25)_2439819.jpg' },
+  { id: 'glasses-1', name: 'Sunglasses', imageUrl: 'https://down-ph.img.susercontent.com/file/sg-11134201-23020-fbu7vzgvpinvdc' },
+  { id: 'dress-1', name: 'Red Dress', imageUrl: 'https://img.etsystatic.com/il/9ac671/1452754311/il_340x270.1452754311_ndma.jpg?version=1' },
+  { id: 'cap-1', name: 'Baseball Cap', imageUrl: 'https://down-ph.img.susercontent.com/file/sg-11134201-7rdy5-mbrryaswp2jgc6' },
 ];
-
 
 //  login is required
 const LoginRequiredMessage = ({ onNavigateToLogin, theme }) => {
