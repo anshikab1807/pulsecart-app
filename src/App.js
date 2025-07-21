@@ -932,15 +932,15 @@ const Carousel = ({ navigateTo, theme }) => {
 // New LoggedInHomePage component
 const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, searchTerm, setSearchTerm, suggestions, handleSuggestionClick, handleSearchChange, handleSearchSubmit, theme }) => { // Added addToCart
   const mainCategories = [
-    { name: "Grocery", icon: "https://placehold.co/24x24/E0E7FF/4F46E5?text=G" },
-    { name: "Mobiles", icon: "https://placehold.co/24x24/D1FFD1/4CAF50?text=M" },
-    { name: "Fashion", icon: "https://placehold.co/24x24/FFDCDC/F44336?text=F" },
-    { name: "Electronics", icon: "https://placehold.co/24x24/D1E7FF/2196F3?text=E" },
-    { name: "Home & Furniture", icon: "https://placehold.co/24x24/FFF3CD/FFC107?text=H" },
-    { name: "Appliances", icon: "https://placehold.co/24x24/E1BEE7/9C27B0?text=A" },
-    { name: "Flight Bookings", icon: "https://placehold.co/24x24/BBDEFB/2196F3?text=F" },
-    { name: "Beauty, Toys & More", icon: "https://placehold.co/24x24/F8BBD0/E91E63?text=B" },
-    { name: "Two Wheelers", icon: "https://placehold.co/24x24/C8E6C9/8BC34A?text=T" },
+    { name: "Grocery", icon: "https://www.macopkg.com/wp-content/uploads/2023/02/supermarket-aisle-1920x1440.jpg" },
+    { name: "Mobiles", icon: "https://www.techcityng.com/wp-content/uploads/2013/12/2013-smartphones-wallpaper.jpg" },
+    { name: "Fashion", icon: "https://wallpapercave.com/wp/wp7030260.jpg" },
+    { name: "Electronics", icon: "http://www.pngall.com/wp-content/uploads/1/Electronic-High-Quality-PNG.png" },
+    { name: "Home & Furniture", icon: "https://rukminim1.flixcart.com/image/832/832/jz4g3gw0/sofa-set/h/g/d/royal-blue-jute-burano311-3-1-1-flipkart-perfect-homes-royal-original-imafj7c8bbnvem9a.jpeg?q=70" },
+    { name: "Appliances", icon: "https://www.thespruceeats.com/thmb/--g_FXSTs_FEdjuG27FYKhR2-r4=/2000x1500/filters:fill(auto,1)/appliancesalexeydudoladovGettyImages-171589331-57b37c3c5f9b58b5c2cb819c.jpg" },
+    { name: "Flight Bookings", icon: "https://mastermousepatrol.com/wp-content/uploads/2020/08/Airlines-Flight-Booking.png" },
+    { name: "Beauty, Toys & More", icon: "https://tse4.mm.bing.net/th/id/OIP.r4P0GQ58mRxDLtrHp2Ni2wHaD8?pid=Api&P=0&h=180" },
+    { name: "Two Wheelers", icon: "http://1.bp.blogspot.com/-Rn0o-AaFV4c/UudpZKWxBMI/AAAAAAAAE_4/Xx95-ZLxJ3c/s1600/Suzuki+Let%2527s-Blue.jpg" },
   ];
 
   const sectionBg = theme === 'dark' ? 'bg-gray-900' : (theme === 'eyeFriendly' ? 'bg-yellow-100' : 'bg-white');
