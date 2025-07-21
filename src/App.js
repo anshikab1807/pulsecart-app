@@ -74,57 +74,57 @@ const productCategories = [
 
 // Example sale products (used for home page sections) - Added numericPrice for calculation
 const saleProducts = [
-  { name: "Noise Smartwatches", price: "₹1,099", numericPrice: 1099, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/FFD1DC/E91E63?text=Watch" },
-  { name: "Fastrack Smartwatches", price: "₹1,399", numericPrice: 1399, discount: "Upto 60% Off", imageUrl: "https://placehold.co/150x150/D1FFD1/4CAF50?text=Fastrack" },
-  { name: "Printers", price: "₹10,999", numericPrice: 10999, discount: "Upto 50% Off", imageUrl: "https://placehold.co/150x150/D1E7FF/2196F3?text=Printer" },
-  { name: "Top Mirrorless Cameras", price: "₹50,000", numericPrice: 50000, discount: "Best Deals", imageUrl: "https://placehold.co/150x150/FFF3CD/FFC107?text=Camera" },
-  { name: "Best Selling Mobiles", price: "From ₹499*", numericPrice: 499, discount: "Great Value", imageUrl: "https://placehold.co/150x150/FFDCDC/F44336?text=Mobile" },
-  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/DCDCDC/607D8B?text=Coffee" },
-  { name: "Best of Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Toys" },
-  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://placehold.co/150x150/B2EBF2/00BCD4?text=Gym" },
-  { name: "Top Selling Stationery", price: "₹49", numericPrice: 49, imageUrl: "https://placehold.co/150x150/FFECB3/FF9800?text=Stationery" },
-  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Cycle" },
-  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://placehold.co/150x150/F8BBD0/E91E63?text=Food" },
-  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/C5CAE9/3F51B5?text=RCToys" },
+  { name: "Noise Smartwatches", price: "₹1,099", numericPrice: 1099, discount: "Upto 70% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.3oHy_estvZ5_Nk5D1MR3MwAAAA?pid=Api&P=0&h=180" },
+  { name: "Fastrack Smartwatches", price: "₹1,399", numericPrice: 1399, discount: "Upto 60% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.9Z_HOYIBag6HmtQbkEpLogAAAA?pid=Api&P=0&h=180" },
+  { name: "Printers", price: "₹10,999", numericPrice: 10999, discount: "Upto 50% Off", imageUrl: "https://tse2.mm.bing.net/th/id/OIP.BSSMmHpCTD4umTXyhojLfgHaFj?pid=Api&P=0&h=180" },
+  { name: "Top Mirrorless Cameras", price: "₹50,000", numericPrice: 50000, discount: "Best Deals", imageUrl: "https://tse2.mm.bing.net/th/id/OIP.cUzWc_zmfZ-Rs6WcLDv-ugHaE8?pid=Api&P=0&h=180" },
+  { name: "Best Selling Mobiles", price: "From ₹499*", numericPrice: 499, discount: "Great Value", imageUrl: "https://www.91-cdn.com/hub/wp-content/uploads/2023/07/top-phone-brands-h1-2023-feat.png?tr=w-781" },
+  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.KVcIlbRpEk-VEv0oAwh9rAHaFj?pid=Api&P=0&h=180" },
+  { name: "Best of Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://i.ytimg.com/vi/j-MVnO4BiNM/maxresdefault.jpg" },
+  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://i.pinimg.com/originals/e8/ee/6d/e8ee6d81ad3960b7c0994c1e4d8d1279.png" },
+  { name: "Top Selling Stationery", price: "₹49", numericPrice: 49, imageUrl: "https://i.pinimg.com/originals/f7/49/8d/f7498d400fb24fa1794a275af595b815.jpg" },
+  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, discount: "Upto 70% Off", imageUrl: "http://5.imimg.com/data5/SELLER/Default/2023/4/300708881/YV/OY/YG/80979251/24-20230406-183611-0002.jpg" },
+  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://thumbs.dreamstime.com/z/assorted-foods-spread-table-various-types-food-neatly-displayed-creating-diverse-colorful-meal-ai-generative-318274200.jpg" },
+  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://i5.walmartimages.com/asr/66566337-34d4-4cd5-8688-5a9c829a9bfd.89760ed5d8d88a663c649f4610221522.jpeg" },
 ];
 
 const beautyFoodToysProducts = [
-  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/DCDCDC/607D8B?text=Coffee" },
-  { name: "Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Action+Toys" },
-  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://placehold.co/150x150/F8BBD0/E91E63?text=Food+Spreads" },
-  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://placehold.co/150x150/C5CAE9/3F51B5?text=RC+Toys" },
-  { name: "Makeup Kits", price: "₹299", numericPrice: 299, imageUrl: "https://placehold.co/150x150/FFC0CB/C2185B?text=Makeup" },
-  { name: "Organic Snacks", price: "₹150", numericPrice: 150, imageUrl: "https://placehold.co/150x150/D4EDDA/28A745?text=Snacks" },
+  { name: "Coffee Powder", price: "₹300", numericPrice: 300, discount: "Upto 80% Off", imageUrl: "https://tse4.mm.bing.net/th/id/OIP.KVcIlbRpEk-VEv0oAwh9rAHaFj?pid=Api&P=0&h=180" },
+  { name: "Action Toys", price: "₹700", numericPrice: 700, discount: "Upto 70% Off", imageUrl: "https://i.ytimg.com/vi/j-MVnO4BiNM/maxresdefault.jpg" },
+  { name: "Food Spreads", price: "₹200", numericPrice: 200, discount: "Upto 75% Off", imageUrl: "https://thumbs.dreamstime.com/z/assorted-foods-spread-table-various-types-food-neatly-displayed-creating-diverse-colorful-meal-ai-generative-318274200.jpg" },
+  { name: "Remote Control Toys", price: "₹500", numericPrice: 500, discount: "Upto 80% Off", imageUrl: "https://i5.walmartimages.com/asr/66566337-34d4-4cd5-8688-5a9c829a9bfd.89760ed5d8d88a663c649f4610221522.jpeg" },
+  { name: "Makeup Kits", price: "₹299", numericPrice: 299, imageUrl: "https://m.media-amazon.com/images/I/814xlZfpO0L.jpg" },
+  { name: "Organic Snacks", price: "₹150", numericPrice: 150, imageUrl: "https://down-id.img.susercontent.com/file/id-11134207-7r98s-lwttp6wsbm1n83" },
 ];
 
 const sportsHealthcareProducts = [
-  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://placehold.co/150x150/B2EBF2/00BCD4?text=Gym+Essentials" },
-  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Geared+Cycles" },
-  { name: "Yoga Mats", price: "₹600", numericPrice: 600, imageUrl: "https://placehold.co/150x150/FFE0B2/FF9800?text=Yoga+Mats" },
-  { name: "Protein Supplements", price: "₹1,500", numericPrice: 1500, imageUrl: "https://placehold.co/150x150/DCEDC8/8BC34A?text=Protein" },
-  { name: "Running Shoes", price: "₹999", numericPrice: 999, imageUrl: "https://placehold.co/150x150/BBDEFB/2196F3?text=Running+Shoes" },
-  { name: "First Aid Kits", price: "₹250", numericPrice: 250, imageUrl: "https://placehold.co/150x150/FFCDD2/F44336?text=First+Aid" },
+  { name: "Gym Essentials", price: "₹139", numericPrice: 139, imageUrl: "https://i.pinimg.com/originals/e8/ee/6d/e8ee6d81ad3960b7c0994c1e4d8d1279.png" },
+  { name: "Geared Cycles", price: "₹8,000", numericPrice: 8000, imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/cycle/u/x/w/shimano-geared-cycles-for-men-with-front-suspension-dual-disc-original-imah3nmyk9hhx5cq.jpeg?q=70" },
+  { name: "Yoga Mats", price: "₹600", numericPrice: 600, imageUrl: "https://microless.com/cdn/products/e4eb8bbf4b63a85018b2de5e8ad2533f-hi.jpg" },
+  { name: "Protein Supplements", price: "₹1,500", numericPrice: 1500, imageUrl: "https://wallpapers.com/images/hd/variety-protein-supplements-containers-xjufhfgepltsncbv.png" },
+  { name: "Running Shoes", price: "₹999", numericPrice: 999, imageUrl: "https://urbanfitshoes.com/cdn/shop/products/IMG_9430_1800x1800.jpg?v=1634149154" },
+  { name: "First Aid Kits", price: "₹250", numericPrice: 250, imageUrl: "https://uoflhealth.org/wp-content/uploads/2021/11/First-Aid-kit.jpg" },
 ];
 
 const mobileProducts = [
-  { name: "Latest Smartphones", price: "₹7,999", numericPrice: 7999, imageUrl: "https://placehold.co/150x150/D1FFD1/4CAF50?text=Smartphone" },
-  { name: "Budget Phones", price: "₹1,200", numericPrice: 1200, imageUrl: "https://placehold.co/150x150/FFDCDC/F44336?text=Budget+Phone" },
-  { name: "Mobile Accessories", price: "₹99", numericPrice: 99, imageUrl: "https://placehold.co/150x150/E0E7FF/4F46E5?text=Accessories" },
-  { name: "Power Banks", price: "₹1,000", numericPrice: 1000, imageUrl: "https://placehold.co/150x150/FFF3CD/FFC107?text=Power+Bank" },
+  { name: "Latest Smartphones", price: "₹7,999", numericPrice: 7999, imageUrl: "https://i.ytimg.com/vi/TD0Are31diM/maxresdefault.jpg" },
+  { name: "Budget Phones", price: "₹1,200", numericPrice: 1200, imageUrl: "https://i.ytimg.com/vi/8b89cH4Jc4U/maxresdefault.jpg" },
+  { name: "Mobile Accessories", price: "₹99", numericPrice: 99, imageUrl: "https://nsg.com.pk/wp-content/uploads/2022/12/mobile-phone-accessories.png" },
+  { name: "Power Banks", price: "₹1,000", numericPrice: 1000, imageUrl: "https://cdn.trendhunterstatic.com/thumbs/516/iniu-powernova.jpeg?auto=webp" },
 ];
 
 const fashionProducts = [
-  { name: "Men's Casual Wear", price: "₹750", numericPrice: 750, imageUrl: "https://placehold.co/150x150/D1E7FF/2196F3?text=Men+Fashion" },
-  { name: "Women's Ethnic Wear", price: "₹499", numericPrice: 499, imageUrl: "https://placehold.co/150x150/FFD1DC/E91E63?text=Women+Fashion" },
-  { name: "Kids' Collection", price: "₹300", numericPrice: 300, imageUrl: "https://placehold.co/150x150/C8E6C9/8BC34A?text=Kids+Fashion" },
-  { name: "Footwear Deals", price: "₹800", numericPrice: 800, imageUrl: "https://placehold.co/150x150/E1BEE7/9C27B0?text=Footwear" },
+  { name: "Men's Casual Wear", price: "₹750", numericPrice: 750, imageUrl: "https://outfitspotter.com/wp-content/uploads/different-smart-casual-outfits-for-men.jpg" },
+  { name: "Women's Ethnic Wear", price: "₹499", numericPrice: 499, imageUrl: "https://cdn.shopify.com/s/files/1/0612/3670/7497/files/drbhsfrynjsty_beautiful_women_wearing_anarkali_suit_1c0b7355-9291-426a-9c03-e4e071bdc997_1024x1024.png?v=1674742110" },
+  { name: "Kids' Collection", price: "₹300", numericPrice: 300, imageUrl: "https://www.imcgrupo.com/wp-content/uploads/2023/04/Keep-Up-With-the-Latest-Trends-in-Childrens-Clothing-Online-01.jpg" },
+  { name: "Footwear Deals", price: "₹800", numericPrice: 800, imageUrl: "https://www.popoptiq.com/wp-content/uploads/2019/01/4-25-1-870x646.jpg" },
 ];
 
 const groceryProducts = [
-  { name: "Fresh Fruits & Veggies", price: "₹120", numericPrice: 120, imageUrl: "https://placehold.co/150x150/DCEDC8/8BC34A?text=Groceries" },
-  { name: "Dairy & Bakery", price: "₹250", numericPrice: 250, imageUrl: "https://placehold.co/150x150/BBDEFB/2196F3?text=Dairy" },
-  { name: "Staples & Pulses", price: "₹500", numericPrice: 500, imageUrl: "https://placehold.co/150x150/FFCDD2/F44336?text=Staples" },
-  { name: "Snacks & Beverages", price: "₹80", numericPrice: 80, imageUrl: "https://placehold.co/150x150/FFE0B2/FF9800?text=Snacks" },
+  { name: "Fresh Fruits & Veggies", price: "₹120", numericPrice: 120, imageUrl: "https://www.perfection.com.au/hs-fs/hubfs/Produce_LR_Category_Proprietary%20Fruit%20and%20Vegetables%20Group_Styled_2022_03%20(1).jpg?width=2250&name=Produce_LR_Category_Proprietary%20Fruit%20and%20Vegetables%20Group_Styled_2022_03%20(1).jpg" },
+  { name: "Dairy & Bakery", price: "₹250", numericPrice: 250, imageUrl: "https://cdn2.vectorstock.com/i/1000x1000/20/01/bakery-and-dairy-products-vector-35712001.jpg" },
+  { name: "Staples & Pulses", price: "₹500", numericPrice: 500, imageUrl: "https://www.livemint.com/lm-img/img/2024/12/18/600x338/2-0-432719404-Pulses1-0_1680684487190_1734508325889.JPG" },
+  { name: "Snacks & Beverages", price: "₹80", numericPrice: 80, imageUrl: "https://www.brookfieldengineering.in/-/media/ametekbrookfield/applications-graphs-and-images/texture--application-notes/food-and--beverages/food-and-beverages-application-notes-image.jpg?la=en-in&revision=4375a9cb-30ab-49e3-838d-0d7b81bc4056&hash=338EDF629E502E3653216720EF88A352" },
 ];
 
 // Dummy location data for auto-fill
@@ -140,11 +140,11 @@ const locationData = [
 
 // AR Products (for demonstration purposes - these should ideally be transparent PNGs)
 const arProducts = [
-  { id: 'tshirt-1', name: 'Blue T-Shirt', imageUrl: 'https://placehold.co/200x200/ADD8E6/000000?text=Blue+T-Shirt' },
-  { id: 'watch-1', name: 'Smart Watch', imageUrl: 'https://placehold.co/100x100/A0A0A0/FFFFFF?text=Smart+Watch' },
-  { id: 'glasses-1', name: 'Sunglasses', imageUrl: 'https://placehold.co/150x50/333333/FFFFFF?text=Sunglasses' },
-  { id: 'dress-1', name: 'Red Dress', imageUrl: 'https://placehold.co/200x300/FF6347/FFFFFF?text=Red+Dress' },
-  { id: 'cap-1', name: 'Baseball Cap', imageUrl: 'https://placehold.co/150x100/4CAF50/FFFFFF?text=Baseball+Cap' },
+  { id: 'tshirt-1', name: 'Blue T-Shirt', imageUrl: 'https://www.shirtagent.de/images/product_images/original_images/regent-t-shirt-duck-blue-vorne_0.jpg' },
+  { id: 'watch-1', name: 'Smart Watch', imageUrl: 'https://acc.qiqiyg.com/upfile/product/202411/Patek%20Philippe%20watch%20150%20(25)_2439819.jpg' },
+  { id: 'glasses-1', name: 'Sunglasses', imageUrl: 'https://down-ph.img.susercontent.com/file/sg-11134201-23020-fbu7vzgvpinvdc' },
+  { id: 'dress-1', name: 'Red Dress', imageUrl: 'https://img.etsystatic.com/il/9ac671/1452754311/il_340x270.1452754311_ndma.jpg?version=1' },
+  { id: 'cap-1', name: 'Baseball Cap', imageUrl: 'https://down-ph.img.susercontent.com/file/sg-11134201-7rdy5-mbrryaswp2jgc6' },
 ];
 
 
@@ -157,11 +157,11 @@ const LoginRequiredMessage = ({ onNavigateToLogin, theme }) => {
   const borderColor = theme === 'dark' ? 'border-gray-700' : (theme === 'eyeFriendly' ? 'border-yellow-200' : 'border-gray-200');
 
   return (
-    <div className={`flex items-center justify-center min-h-screen p-4 ${bgColor}`}>
-      <div className={`${cardBg} p-8 rounded-lg shadow-xl w-full max-w-md text-center ${borderColor} border`}>
+    <div className={flex items-center justify-center min-h-screen p-4 ${bgColor}}>
+      <div className={${cardBg} p-8 rounded-lg shadow-xl w-full max-w-md text-center ${borderColor} border}>
         <User size={60} className="text-red-500 mx-auto mb-6" />
-        <h2 className={`text-3xl font-bold mb-4 ${textColor}`}>Please Log In to Access All Features</h2>
-        <p className={`mb-6 ${subTextColor}`}>
+        <h2 className={text-3xl font-bold mb-4 ${textColor}}>Please Log In to Access All Features</h2>
+        <p className={mb-6 ${subTextColor}}>
           You need to be logged in to view product categories, book flights, hotels, and see exclusive deals.
         </p>
         <button
@@ -195,16 +195,16 @@ const LoginPage = ({ onLoginSuccess, onNavigateToHome, theme }) => {
   };
 
   return (
-    <div className={`flex items-center justify-center min-h-screen p-4 ${bgColor}`}>
-      <div className={`${cardBg} p-8 rounded-lg shadow-xl w-full max-w-md ${borderColor} border`}>
-        <h2 className={`text-3xl font-bold text-center text-indigo-700 mb-8 ${textColor}`}>Login to PulseCart</h2>
+    <div className={flex items-center justify-center min-h-screen p-4 ${bgColor}}>
+      <div className={${cardBg} p-8 rounded-lg shadow-xl w-full max-w-md ${borderColor} border}>
+        <h2 className={text-3xl font-bold text-center text-indigo-700 mb-8 ${textColor}}>Login to PulseCart</h2>
         <form onSubmit={handleLogin} className="space-y-6">
           <div>
-            <label htmlFor="email" className={`block text-sm font-medium mb-2 ${textColor}`}>Email Address</label>
+            <label htmlFor="email" className={block text-sm font-medium mb-2 ${textColor}}>Email Address</label>
             <input
               type="email"
               id="email"
-              className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 ${inputBg}`}
+              className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 ${inputBg}}
               placeholder="user@example.com" // Hint for demonstration
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -212,11 +212,11 @@ const LoginPage = ({ onLoginSuccess, onNavigateToHome, theme }) => {
             />
           </div>
           <div>
-            <label htmlFor="password" className={`block text-sm font-medium mb-2 ${textColor}`}>Password</label>
+            <label htmlFor="password" className={block text-sm font-medium mb-2 ${textColor}}>Password</label>
             <input
               type="password"
               id="password"
-              className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 ${inputBg}`}
+              className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 ${inputBg}}
               placeholder="password" // Hint for demonstration
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -230,12 +230,12 @@ const LoginPage = ({ onLoginSuccess, onNavigateToHome, theme }) => {
             Login
           </button>
         </form>
-        <p className={`mt-6 text-center ${textColor}`}>
+        <p className={mt-6 text-center ${textColor}}>
           Don't have an account? <a href="#" className="text-indigo-600 hover:underline">Sign Up</a>
         </p>
         <button
           onClick={onNavigateToHome}
-          className={`mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}`}
+          className={mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}}
         >
           Back to Home
         </button>
@@ -248,8 +248,8 @@ const LoginPage = ({ onLoginSuccess, onNavigateToHome, theme }) => {
 const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToCategories, theme }) => {
   if (!product) {
     return (
-      <div className={`min-h-screen flex items-center justify-center ${theme === 'dark' ? 'bg-gray-800 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-50 text-gray-900' : 'bg-gray-50 text-gray-800')}`}>
-        <div className={`p-8 rounded-lg shadow-lg text-center ${theme === 'dark' ? 'bg-gray-900 border border-gray-700' : (theme === 'eyeFriendly' ? 'bg-yellow-100 border border-yellow-200' : 'bg-white border border-gray-200')}`}>
+      <div className={min-h-screen flex items-center justify-center ${theme === 'dark' ? 'bg-gray-800 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-50 text-gray-900' : 'bg-gray-50 text-gray-800')}}>
+        <div className={p-8 rounded-lg shadow-lg text-center ${theme === 'dark' ? 'bg-gray-900 border border-gray-700' : (theme === 'eyeFriendly' ? 'bg-yellow-100 border border-yellow-200' : 'bg-white border border-gray-200')}}>
           <h2 className="text-2xl font-bold mb-4">Product Not Found</h2>
           <p className="mb-6">The product you are looking for does not exist or was not selected.</p>
           <button onClick={onNavigateToHome} className="bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-200">
@@ -289,13 +289,13 @@ const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToC
 
 
   return (
-    <div className={`min-h-screen p-4 md:p-8 ${bgColor}`}>
-      <div className={`${cardBg} rounded-lg shadow-lg p-8 max-w-5xl mx-auto ${borderColor} border`}>
+    <div className={min-h-screen p-4 md:p-8 ${bgColor}}>
+      <div className={${cardBg} rounded-lg shadow-lg p-8 max-w-5xl mx-auto ${borderColor} border}>
         <div className="flex flex-col md:flex-row gap-8">
           {/* Product Image */}
           <div className="md:w-1/2 flex justify-center items-center p-4">
             <img
-              src={`https://placehold.co/400x400/${theme === 'dark' ? '4F46E5/E0E7FF' : (theme === 'eyeFriendly' ? 'FDE68A/78350F' : 'E0E7FF/4F46E5')}?text=${product.name.replace(/\s/g, '+')}`}
+              src={https://placehold.co/400x400/${theme === 'dark' ? '4F46E5/E0E7FF' : (theme === 'eyeFriendly' ? 'FDE68A/78350F' : 'E0E7FF/4F46E5')}?text=${product.name.replace(/\s/g, '+')}}
               alt={product.name}
               className="max-w-full h-auto rounded-lg shadow-md"
               onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/400x400/cccccc/000000?text=Image+Not+Found"; }}
@@ -304,15 +304,15 @@ const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToC
 
           {/* Product Details */}
           <div className="md:w-1/2 p-4">
-            <h2 className={`text-4xl font-bold text-indigo-700 mb-4 ${textColor}`}>{product.name}</h2>
-            <p className={`text-3xl font-extrabold text-green-600 mb-6`}>
+            <h2 className={text-4xl font-bold text-indigo-700 mb-4 ${textColor}}>{product.name}</h2>
+            <p className={text-3xl font-extrabold text-green-600 mb-6}>
               Price: {product.price}
             </p>
-            <p className={`text-lg mb-6 ${subTextColor}`}>
+            <p className={text-lg mb-6 ${subTextColor}}>
               {/* Dummy description */}
               This high-quality {product.name.toLowerCase()} offers exceptional performance and durability. Perfect for daily use, it combines innovative features with a sleek design. Enjoy a premium experience at an unbeatable value.
             </p>
-            <ul className={`list-disc list-inside mb-8 ${subTextColor} space-y-2`}>
+            <ul className={list-disc list-inside mb-8 ${subTextColor} space-y-2}>
               <li>Feature 1: High-performance processor</li>
               <li>Feature 2: Long-lasting battery life</li>
               <li>Feature 3: Ergonomic design for comfort</li>
@@ -328,34 +328,34 @@ const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToC
         </div>
 
         {/* Price Comparison Section */}
-        <div className={`mt-12 p-6 rounded-lg border ${borderColor} ${tableRowBg}`}>
-          <h3 className={`text-2xl font-bold text-indigo-700 mb-6 text-center ${textColor}`}>Price Comparison</h3>
-          <p className={`${subTextColor} text-center mb-6`}>
+        <div className={mt-12 p-6 rounded-lg border ${borderColor} ${tableRowBg}}>
+          <h3 className={text-2xl font-bold text-indigo-700 mb-6 text-center ${textColor}}>Price Comparison</h3>
+          <p className={${subTextColor} text-center mb-6}>
             Compare prices for {product.name} across various online retailers to ensure you get the best deal!
             <br/><strong className="text-red-500">Note: Prices are simulated and for demonstration purposes only.</strong>
           </p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-200 rounded-lg overflow-hidden">
-              <thead className={`${tableHeaderBg}`}>
+              <thead className={${tableHeaderBg}}>
                 <tr>
-                  <th scope="col" className={`px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider`}>
+                  <th scope="col" className={px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider}>
                     Website
                   </th>
-                  <th scope="col" className={`px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider`}>
+                  <th scope="col" className={px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider}>
                     Price
                   </th>
-                  <th scope="col" className={`px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider`}>
+                  <th scope="col" className={px-6 py-3 text-left text-xs font-medium ${subTextColor} uppercase tracking-wider}>
                     Link
                   </th>
                 </tr>
               </thead>
-              <tbody className={`divide-y ${borderColor}`}>
+              <tbody className={divide-y ${borderColor}}>
                 {/* PulseCart's price */}
-                <tr className={`${tableRowBg}`}>
-                  <td className={`px-6 py-4 whitespace-nowrap text-lg font-semibold ${textColor}`}>
+                <tr className={${tableRowBg}}>
+                  <td className={px-6 py-4 whitespace-nowrap text-lg font-semibold ${textColor}}>
                     PulseCart (Our Price)
                   </td>
-                  <td className={`px-6 py-4 whitespace-nowrap text-lg font-bold text-green-600`}>
+                  <td className={px-6 py-4 whitespace-nowrap text-lg font-bold text-green-600}>
                     {product.price}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
@@ -364,11 +364,11 @@ const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToC
                 </tr>
                 {/* Simulated competitor prices */}
                 {comparisonPrices.map((comp, index) => (
-                  <tr key={index} className={`${tableRowBg}`}>
-                    <td className={`px-6 py-4 whitespace-nowrap ${subTextColor}`}>
+                  <tr key={index} className={${tableRowBg}}>
+                    <td className={px-6 py-4 whitespace-nowrap ${subTextColor}}>
                       {comp.website}
                     </td>
-                    <td className={`px-6 py-4 whitespace-nowrap ${comp.price < product.numericPrice ? 'text-red-500 font-semibold' : subTextColor}`}>
+                    <td className={px-6 py-4 whitespace-nowrap ${comp.price < product.numericPrice ? 'text-red-500 font-semibold' : subTextColor}}>
                       ₹{comp.price.toLocaleString('en-IN')}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
@@ -384,13 +384,13 @@ const ProductDetailPage = ({ product, addToCart, onNavigateToHome, onNavigateToC
         <div className="mt-8 flex justify-center space-x-4">
           <button
             onClick={onNavigateToCategories}
-            className={`bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}`}
+            className={bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}}
           >
             Back to Shop
           </button>
           <button
             onClick={onNavigateToHome}
-            className={`bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}`}
+            className={bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}}
           >
             Back to Home
           </button>
@@ -422,11 +422,11 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
     : activeCategory.subcategories.flatMap(sub => sub.items);
 
   return (
-    <div className={`min-h-screen p-4 md:p-8 ${bgColor}`}>
-      <div className={`${cardBg} rounded-lg shadow-lg flex flex-col md:flex-row min-h-[70vh]`}>
+    <div className={min-h-screen p-4 md:p-8 ${bgColor}}>
+      <div className={${cardBg} rounded-lg shadow-lg flex flex-col md:flex-row min-h-[70vh]}>
         {/* Category List */}
-        <div className={`w-full md:w-1/4 border-r ${borderColor} p-6`}>
-          <h3 className={`text-2xl font-bold text-indigo-700 mb-6 ${textColor}`}>Categories</h3>
+        <div className={w-full md:w-1/4 border-r ${borderColor} p-6}>
+          <h3 className={text-2xl font-bold text-indigo-700 mb-6 ${textColor}}>Categories</h3>
           <ul className="space-y-2">
             {productCategories.map((category) => (
               <li key={category.name}>
@@ -438,7 +438,7 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
                   className={`w-full text-left py-3 px-4 rounded-md flex items-center justify-between transition-colors duration-200 ${
                     activeCategory.name === category.name
                       ? buttonActiveBg
-                      : `${subTextColor} ${buttonHoverBg}`
+                      : ${subTextColor} ${buttonHoverBg}
                   }`}
                 >
                   {category.name} <ChevronRight size={18} />
@@ -449,8 +449,8 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
         </div>
 
         {/* Subcategory List */}
-        <div className={`w-full md:w-1/4 border-r ${borderColor} p-6 ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}`}>
-          <h3 className={`text-2xl font-bold text-indigo-700 mb-6 ${textColor}`}>{activeCategory.name}</h3>
+        <div className={w-full md:w-1/4 border-r ${borderColor} p-6 ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}}>
+          <h3 className={text-2xl font-bold text-indigo-700 mb-6 ${textColor}}>{activeCategory.name}</h3>
           <ul className="space-y-2">
             {activeCategory.subcategories.map((sub) => (
               <li key={sub.name}>
@@ -459,7 +459,7 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
                   className={`w-full text-left py-3 px-4 rounded-md flex items-center justify-between transition-colors duration-200 ${
                     activeSubcategory && activeSubcategory.name === sub.name
                       ? subButtonActiveBg
-                      : `${subTextColor} ${subButtonHoverBg}`
+                      : ${subTextColor} ${subButtonHoverBg}
                   }`}
                 >
                   {sub.name} <ChevronRight size={18} />
@@ -471,24 +471,24 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
 
         {/* Product Items */}
         <div className="flex-1 p-6">
-          <h3 className={`text-2xl font-bold text-indigo-700 mb-6 ${textColor}`}>
-            {activeSubcategory ? activeSubcategory.name : `All ${activeCategory.name} Products`}
+          <h3 className={text-2xl font-bold text-indigo-700 mb-6 ${textColor}}>
+            {activeSubcategory ? activeSubcategory.name : All ${activeCategory.name} Products}
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {productsToDisplay.map((item, index) => (
               <div
                 key={index}
-                className={`${cardBg} ${borderColor} border rounded-lg shadow-sm p-4 text-center transform hover:scale-105 transition-transform duration-300 flex flex-col justify-between`}
+                className={${cardBg} ${borderColor} border rounded-lg shadow-sm p-4 text-center transform hover:scale-105 transition-transform duration-300 flex flex-col justify-between}
               >
                 <div className="cursor-pointer" onClick={() => navigateToProductDetail(item)}>
                   <img
-                    src={`https://placehold.co/150x150/${theme === 'dark' ? '4F46E5/E0E7FF' : (theme === 'eyeFriendly' ? 'FDE68A/78350F' : 'E0E7FF/4F46E5')}?text=${item.name.replace(/\s/g, '+')}`}
+                    src={https://placehold.co/150x150/${theme === 'dark' ? '4F46E5/E0E7FF' : (theme === 'eyeFriendly' ? 'FDE68A/78350F' : 'E0E7FF/4F46E5')}?text=${item.name.replace(/\s/g, '+')}}
                     alt={item.name}
                     className="mx-auto mb-4 rounded-md"
                     onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/150x150/cccccc/000000?text=Image+Not+Found"; }}
                   />
-                  <h4 className={`text-lg font-semibold mb-2 ${textColor}`}>{item.name}</h4>
-                  <p className={`${subTextColor}`}>Price: {item.price}</p>
+                  <h4 className={text-lg font-semibold mb-2 ${textColor}}>{item.name}</h4>
+                  <p className={${subTextColor}}>Price: {item.price}</p>
                 </div>
                 <button
                   onClick={() => addToCart(item)}
@@ -501,7 +501,7 @@ const ProductCategoryPage = ({ onNavigateToHome, navigateToProductDetail, addToC
           </div>
           <button
             onClick={onNavigateToHome}
-            className={`mt-8 bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}`}
+            className={mt-8 bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}}
           >
             Back to Home
           </button>
@@ -529,17 +529,17 @@ const PlaneBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
   };
 
   return (
-    <div className={`min-h-screen flex items-center justify-center p-4 ${bgColor}`}>
-      <div className={`${cardBg} p-8 rounded-lg shadow-xl w-full max-w-2xl text-center ${borderColor} border`}>
+    <div className={min-h-screen flex items-center justify-center p-4 ${bgColor}}>
+      <div className={${cardBg} p-8 rounded-lg shadow-xl w-full max-w-2xl text-center ${borderColor} border}>
         <Plane size={60} className="text-indigo-600 mx-auto mb-6" />
-        <h2 className={`text-3xl font-bold text-indigo-700 mb-4 ${textColor}`}>Book Your Flights</h2>
-        <p className={`${subTextColor} mb-6`}>
+        <h2 className={text-3xl font-bold text-indigo-700 mb-4 ${textColor}}>Book Your Flights</h2>
+        <p className={${subTextColor} mb-6}>
           Search for the best flight deals and book your next adventure with ease.
         </p>
         <div className="space-y-4 mb-6">
-          <input type="text" placeholder="Departure City" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
-          <input type="date" placeholder="Departure Date" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
-          <input type="date" placeholder="Return Date (Optional)" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
+          <input type="text" placeholder="Departure City" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
+          <input type="date" placeholder="Departure Date" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
+          <input type="date" placeholder="Return Date (Optional)" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
         </div>
         <button
           onClick={handleSearchFlights}
@@ -549,7 +549,7 @@ const PlaneBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
         </button>
         <button
           onClick={onNavigateToHome}
-          className={`mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}`}
+          className={mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}}
         >
           Back to Home
         </button>
@@ -575,18 +575,18 @@ const HotelBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
   };
 
   return (
-    <div className={`min-h-screen flex items-center justify-center p-4 ${bgColor}`}>
-      <div className={`${cardBg} p-8 rounded-lg shadow-xl w-full max-w-2xl text-center ${borderColor} border`}>
+    <div className={min-h-screen flex items-center justify-center p-4 ${bgColor}}>
+      <div className={${cardBg} p-8 rounded-lg shadow-xl w-full max-w-2xl text-center ${borderColor} border}>
         <Hotel size={60} className="text-indigo-600 mx-auto mb-6" />
-        <h2 className={`text-3xl font-bold text-indigo-700 mb-4 ${textColor}`}>Find Your Perfect Stay</h2>
-        <p className={`${subTextColor} mb-6`}>
+        <h2 className={text-3xl font-bold text-indigo-700 mb-4 ${textColor}}>Find Your Perfect Stay</h2>
+        <p className={${subTextColor} mb-6}>
           Discover hotels, resorts, and accommodations for every budget and preference.
         </p>
         <div className="space-y-4 mb-6">
-          <input type="text" placeholder="Destination" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
-          <input type="date" placeholder="Check-in Date" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
-          <input type="date" placeholder="Check-out Date" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
-          <input type="number" placeholder="Number of Guests" min="1" className={`w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}`} />
+          <input type="text" placeholder="Destination" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
+          <input type="date" placeholder="Check-in Date" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
+          <input type="date" placeholder="Check-out Date" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
+          <input type="number" placeholder="Number of Guests" min="1" className={w-full px-4 py-2 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 ${inputBg}} />
         </div>
         <button
           onClick={handleSearchHotels}
@@ -596,7 +596,7 @@ const HotelBookingPage = ({ onNavigateToHome, onBookingSuccess, theme }) => {
         </button>
         <button
           onClick={onNavigateToHome}
-          className={`mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}`}
+          className={mt-4 w-full text-indigo-600 border border-indigo-600 py-2 px-4 rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:text-white' : ''}}
         >
           Back to Home
         </button>
@@ -614,17 +614,17 @@ const SalePage = ({ onNavigateToHome, addToCart, navigateToProductDetail, theme 
   const borderColor = theme === 'dark' ? 'border-gray-700' : (theme === 'eyeFriendly' ? 'border-yellow-200' : 'border-gray-200');
 
   return (
-    <div className={`min-h-screen p-4 md:p-8 ${bgColor}`}>
-      <div className={`${cardBg} rounded-lg shadow-lg p-6`}>
-        <h2 className={`text-3xl font-bold text-indigo-700 text-center mb-8 ${textColor}`}>Today's Best Deals!</h2>
-        <p className={`text-center mb-8 ${subTextColor}`}>
+    <div className={min-h-screen p-4 md:p-8 ${bgColor}}>
+      <div className={${cardBg} rounded-lg shadow-lg p-6}>
+        <h2 className={text-3xl font-bold text-indigo-700 text-center mb-8 ${textColor}}>Today's Best Deals!</h2>
+        <p className={text-center mb-8 ${subTextColor}}>
           Don't miss out on these limited-time offers across various categories.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {saleProducts.map((product, index) => (
             <div
               key={index}
-              className={`flex-none w-48 ${cardBg} rounded-lg shadow-sm p-4 text-center border ${borderColor} transform hover:scale-105 transition-transform duration-300 cursor-pointer`}
+              className={flex-none w-48 ${cardBg} rounded-lg shadow-sm p-4 text-center border ${borderColor} transform hover:scale-105 transition-transform duration-300 cursor-pointer}
               onClick={() => navigateToProductDetail(product)} // Navigate to detail page
             >
               <img
@@ -633,8 +633,8 @@ const SalePage = ({ onNavigateToHome, addToCart, navigateToProductDetail, theme 
                 className="mx-auto mb-4 rounded-md"
                 onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/150x150/cccccc/000000?text=Image+Not+Found"; }}
               />
-              <h4 className={`text-lg font-semibold mb-1 ${textColor}`}>{product.name}</h4>
-              <p className={`text-sm ${subTextColor} line-through`}>{product.originalPrice}</p>
+              <h4 className={text-lg font-semibold mb-1 ${textColor}}>{product.name}</h4>
+              <p className={text-sm ${subTextColor} line-through}>{product.originalPrice}</p>
               <p className="text-xl font-bold text-red-600 mt-1">{product.price}</p>
               <p className="text-green-600 font-medium text-sm mb-2">{product.discount}</p>
               {/* Removed Add to Cart from here, now on product detail page */}
@@ -643,7 +643,7 @@ const SalePage = ({ onNavigateToHome, addToCart, navigateToProductDetail, theme 
         </div>
         <button
           onClick={onNavigateToHome}
-          className={`mt-8 bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}`}
+          className={mt-8 bg-gray-200 ${textColor} py-2 px-4 rounded-md hover:bg-gray-300 transition-colors duration-200 ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-gray-100' : (theme === 'eyeFriendly' ? 'bg-yellow-200 hover:bg-yellow-300 text-gray-900' : '')}}
         >
           Back to Home
         </button>
@@ -696,14 +696,14 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
   };
 
   return (
-    <div className={`min-h-screen p-4 md:p-8 flex items-center justify-center ${bgColor}`}>
-      <div className={`${cardBg} rounded-lg shadow-lg p-8 w-full max-w-3xl mx-auto ${borderColor} border`}>
-        <h2 className={`text-4xl font-bold text-indigo-700 mb-10 text-center ${textColor}`}>Checkout</h2>
+    <div className={min-h-screen p-4 md:p-8 flex items-center justify-center ${bgColor}}>
+      <div className={${cardBg} rounded-lg shadow-lg p-8 w-full max-w-3xl mx-auto ${borderColor} border}>
+        <h2 className={text-4xl font-bold text-indigo-700 mb-10 text-center ${textColor}}>Checkout</h2>
 
         {cart.length === 0 ? (
           <div className="text-center py-10">
             <XCircle size={80} className="text-gray-400 mx-auto mb-6" />
-            <p className={`text-2xl font-semibold mb-6 ${textColor}`}>Your cart is empty.</p>
+            <p className={text-2xl font-semibold mb-6 ${textColor}}>Your cart is empty.</p>
             <button
               onClick={onNavigateToHome}
               className="bg-indigo-600 text-white py-3 px-8 rounded-md font-semibold hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105"
@@ -713,26 +713,26 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
           </div>
         ) : (
           <>
-            <div className={`mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}`}>
-              <h3 className={`text-2xl font-semibold mb-5 ${textColor}`}>Order Summary</h3>
+            <div className={mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}}>
+              <h3 className={text-2xl font-semibold mb-5 ${textColor}}>Order Summary</h3>
               <ul className="space-y-4 mb-4">
                 {cart.map((item, index) => (
-                  <li key={index} className={`flex justify-between items-center border-b ${borderColor} pb-2 text-lg`}>
-                    <span className={`${subTextColor}`}>{item.name}</span>
-                    <span className={`font-medium ${textColor}`}>₹{item.numericPrice.toLocaleString('en-IN')}</span>
+                  <li key={index} className={flex justify-between items-center border-b ${borderColor} pb-2 text-lg}>
+                    <span className={${subTextColor}}>{item.name}</span>
+                    <span className={font-medium ${textColor}}>₹{item.numericPrice.toLocaleString('en-IN')}</span>
                   </li>
                 ))}
               </ul>
-              <div className={`flex justify-between items-center mt-6 pt-4 border-t-2 border-indigo-300 ${theme === 'dark' ? 'border-indigo-600' : ''}`}>
-                <span className={`text-2xl font-bold ${textColor}`}>Total:</span>
+              <div className={flex justify-between items-center mt-6 pt-4 border-t-2 border-indigo-300 ${theme === 'dark' ? 'border-indigo-600' : ''}}>
+                <span className={text-2xl font-bold ${textColor}}>Total:</span>
                 <span className="text-3xl font-extrabold text-indigo-700">₹{totalPrice.toLocaleString('en-IN')}</span>
               </div>
             </div>
 
-            <div className={`mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}`}>
-              <h3 className={`text-2xl font-semibold mb-5 ${textColor}`}>Payment Method</h3>
+            <div className={mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}}>
+              <h3 className={text-2xl font-semibold mb-5 ${textColor}}>Payment Method</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <label className={`flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}`}>
+                <label className={flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}}>
                   <input
                     type="radio"
                     name="paymentMethod"
@@ -741,9 +741,9 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
                     onChange={() => setPaymentMethod('card')}
                     className="form-radio text-indigo-600 h-5 w-5"
                   />
-                  <span className={`text-lg font-medium ${subTextColor}`}>Credit/Debit Card</span>
+                  <span className={text-lg font-medium ${subTextColor}}>Credit/Debit Card</span>
                 </label>
-                <label className={`flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}`}>
+                <label className={flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}}>
                   <input
                     type="radio"
                     name="paymentMethod"
@@ -752,9 +752,9 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
                     onChange={() => setPaymentMethod('upi')}
                     className="form-radio text-indigo-600 h-5 w-5"
                   />
-                  <span className={`text-lg font-medium ${subTextColor}`}>UPI</span>
+                  <span className={text-lg font-medium ${subTextColor}}>UPI</span>
                 </label>
-                <label className={`flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}`}>
+                <label className={flex items-center space-x-3 cursor-pointer p-4 border ${inputBorder} rounded-md hover:bg-indigo-50 transition-colors duration-200 ${theme === 'dark' ? 'hover:bg-indigo-900' : ''}}>
                   <input
                     type="radio"
                     name="paymentMethod"
@@ -763,19 +763,19 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
                     onChange={() => setPaymentMethod('netbanking')}
                     className="form-radio text-indigo-600 h-5 w-5"
                   />
-                  <span className={`text-lg font-medium ${subTextColor}`}>Net Banking</span>
+                  <span className={text-lg font-medium ${subTextColor}}>Net Banking</span>
                 </label>
               </div>
             </div>
 
-            <div className={`mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}`}>
-              <h3 className={`text-2xl font-semibold mb-5 ${textColor}`}>Shipping Address</h3>
+            <div className={mb-10 p-6 rounded-lg border ${borderColor} ${theme === 'dark' ? 'bg-gray-800' : (theme === 'eyeFriendly' ? 'bg-yellow-50' : 'bg-gray-50')}}>
+              <h3 className={text-2xl font-semibold mb-5 ${textColor}}>Shipping Address</h3>
               <div className="space-y-4">
-                <input type="text" placeholder="Full Name" className={`w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}`} value={fullName} onChange={(e) => setFullName(e.target.value)} required />
-                <input type="text" placeholder="Address Line 1" className={`w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}`} value={addressLine1} onChange={(e) => setAddressLine1(e.target.value)} required />
-                <input type="text" placeholder="City (e.g., Agra, Mumbai)" className={`w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}`} value={city} onChange={handleCityChange} required />
-                <input type="text" placeholder="State" className={`w-full px-4 py-3 border ${inputBorder} rounded-md cursor-not-allowed text-lg ${disabledInputBg}`} value={state} readOnly />
-                <input type="text" placeholder="Pincode" className={`w-full px-4 py-3 border ${inputBorder} rounded-md cursor-not-allowed text-lg ${disabledInputBg}`} value={pincode} readOnly />
+                <input type="text" placeholder="Full Name" className={w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}} value={fullName} onChange={(e) => setFullName(e.target.value)} required />
+                <input type="text" placeholder="Address Line 1" className={w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}} value={addressLine1} onChange={(e) => setAddressLine1(e.target.value)} required />
+                <input type="text" placeholder="City (e.g., Agra, Mumbai)" className={w-full px-4 py-3 border ${inputBorder} rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 text-lg ${inputBg}} value={city} onChange={handleCityChange} required />
+                <input type="text" placeholder="State" className={w-full px-4 py-3 border ${inputBorder} rounded-md cursor-not-allowed text-lg ${disabledInputBg}} value={state} readOnly />
+                <input type="text" placeholder="Pincode" className={w-full px-4 py-3 border ${inputBorder} rounded-md cursor-not-allowed text-lg ${disabledInputBg}} value={pincode} readOnly />
               </div>
               {formError && (
                 <p className="text-red-500 text-sm mt-3 text-center">{formError}</p>
@@ -790,7 +790,7 @@ const PaymentPage = ({ cart, totalPrice, onNavigateToHome, onPlaceOrder, theme }
             </button>
             <button
               onClick={onNavigateToHome}
-              className={`mt-4 w-full text-indigo-600 border border-indigo-600 py-3 px-6 rounded-md hover:bg-indigo-50 transition-colors duration-200 text-lg ${theme === 'dark' ? 'hover:text-white' : ''}`}
+              className={mt-4 w-full text-indigo-600 border border-indigo-600 py-3 px-6 rounded-md hover:bg-indigo-50 transition-colors duration-200 text-lg ${theme === 'dark' ? 'hover:text-white' : ''}}
             >
               Back to Home
             </button>
@@ -819,7 +819,7 @@ const OrderSuccessPage = ({ message, onNavigateToHome, theme }) => {
   };
 
   return (
-    <div className={`fixed inset-0 bg-gradient-to-br ${bgColor} ${textColor} flex flex-col items-center justify-center p-8 z-[200] text-center`}>
+    <div className={fixed inset-0 bg-gradient-to-br ${bgColor} ${textColor} flex flex-col items-center justify-center p-8 z-[200] text-center}>
       <CheckCircle size={100} className="text-green-300 mb-8 animate-bounce" />
       <h2 className="text-5xl font-extrabold mb-6 leading-tight">
         {message}
@@ -828,10 +828,10 @@ const OrderSuccessPage = ({ message, onNavigateToHome, theme }) => {
         Thank you for trusting us! We appreciate your business.
       </p>
 
-      <div className={`${cardBg} backdrop-blur-sm p-8 rounded-lg shadow-xl w-full max-w-md border ${borderColor}`}>
-        <h3 className={`text-2xl font-bold mb-4 ${textColor}`}>Give Your Valuable Feedback</h3>
+      <div className={${cardBg} backdrop-blur-sm p-8 rounded-lg shadow-xl w-full max-w-md border ${borderColor}}>
+        <h3 className={text-2xl font-bold mb-4 ${textColor}}>Give Your Valuable Feedback</h3>
         <textarea
-          className={`w-full p-3 rounded-md border border-gray-300 ${inputBg} focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 resize-y min-h-[100px]`}
+          className={w-full p-3 rounded-md border border-gray-300 ${inputBg} focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200 resize-y min-h-[100px]}
           placeholder="Share your experience with us..."
           value={feedback}
           onChange={(e) => setFeedback(e.target.value)}
@@ -866,7 +866,7 @@ const Carousel = ({ navigateTo, theme }) => {
       code: "ROUNDTRIP",
       buttonText: "Book now",
       action: () => navigateTo('planeBooking'),
-      imageUrl: "https://placehold.co/1200x300/6A0DAD/FFFFFF?text=Roundtrip+booking+offers!+Upto+%E2%82%B93,500+Off",
+      imageUrl: "https://images.freekaamaal.com/post_images/1602220732.PNG",
       bgColor: "from-purple-600 to-indigo-700",
     },
     {
@@ -875,7 +875,7 @@ const Carousel = ({ navigateTo, theme }) => {
       code: "FLASH25",
       buttonText: "Shop All Deals",
       action: () => navigateTo('sale'),
-      imageUrl: "https://placehold.co/1200x300/DC2626/FFFFFF?text=Today's+Hot+Deals!+Massive+Savings",
+      imageUrl: "https://img.freepik.com/premium-vector/today-shopping-day-with-special-offer-banner-design_624938-1337.jpg?w=2000",
       bgColor: "from-red-500 to-pink-600",
     },
     {
@@ -884,7 +884,7 @@ const Carousel = ({ navigateTo, theme }) => {
       code: "HOTELBLISS",
       buttonText: "Book Hotels",
       action: () => navigateTo('hotelBooking'),
-      imageUrl: "https://placehold.co/1200x300/0D9488/FFFFFF?text=Find+Your+Perfect+Stay+Exclusive+Hotel+Deals",
+      imageUrl: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uKTP_2_GijEPY1xVc55gDuPsE5_9rpfiTuV5EAI6BotuLhhs1gUGVNfxetjLZxqmj3B4rgvExDxyyoMKYr6JugtpIR0TAU3VfhuknTZvbBzwRk95y375gzKpQ53CyQJXI_BDLsdpow5PvuX4unt04bN-lGVQ=w1200-h630-p-k-no-nu",
       bgColor: "from-teal-500 to-cyan-600",
     },
   ];
@@ -902,7 +902,7 @@ const Carousel = ({ navigateTo, theme }) => {
   const sectionTextColor = theme === 'dark' ? 'text-gray-100' : (theme === 'eyeFriendly' ? 'text-gray-900' : 'text-gray-800');
 
   return (
-    <section className={`relative bg-gradient-to-r ${currentBanner.bgColor} ${sectionTextColor} py-16 px-6 md:px-12 text-center rounded-lg m-4 shadow-lg overflow-hidden transition-all duration-1000 ease-in-out`}>
+    <section className={relative bg-gradient-to-r ${currentBanner.bgColor} ${sectionTextColor} py-16 px-6 md:px-12 text-center rounded-lg m-4 shadow-lg overflow-hidden transition-all duration-1000 ease-in-out}>
       <img
         src={currentBanner.imageUrl}
         alt={currentBanner.title}
@@ -932,15 +932,15 @@ const Carousel = ({ navigateTo, theme }) => {
 // New LoggedInHomePage component
 const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, searchTerm, setSearchTerm, suggestions, handleSuggestionClick, handleSearchChange, handleSearchSubmit, theme }) => { // Added addToCart
   const mainCategories = [
-    { name: "Grocery", icon: "https://placehold.co/24x24/E0E7FF/4F46E5?text=G" },
-    { name: "Mobiles", icon: "https://placehold.co/24x24/D1FFD1/4CAF50?text=M" },
-    { name: "Fashion", icon: "https://placehold.co/24x24/FFDCDC/F44336?text=F" },
-    { name: "Electronics", icon: "https://placehold.co/24x24/D1E7FF/2196F3?text=E" },
-    { name: "Home & Furniture", icon: "https://placehold.co/24x24/FFF3CD/FFC107?text=H" },
-    { name: "Appliances", icon: "https://placehold.co/24x24/E1BEE7/9C27B0?text=A" },
-    { name: "Flight Bookings", icon: "https://placehold.co/24x24/BBDEFB/2196F3?text=F" },
-    { name: "Beauty, Toys & More", icon: "https://placehold.co/24x24/F8BBD0/E91E63?text=B" },
-    { name: "Two Wheelers", icon: "https://placehold.co/24x24/C8E6C9/8BC34A?text=T" },
+    { name: "Grocery", icon: "https://www.tasteofhome.com/wp-content/uploads/2018/04/shutterstock_133259828.jpg" },
+    { name: "Mobiles", icon: "https://techeconomy.ng/wp-content/uploads/2023/12/The-Most-Popular-Phone-Brands-in-Every-Country-in-2023.jpg" },
+    { name: "Fashion", icon: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" },
+    { name: "Electronics", icon: "https://www.thenoiseuk.com/wp-content/uploads/2021/10/Consumer-Electronics-Appliance_blog-1024x701.jpeg" },
+    { name: "Home & Furniture", icon: "https://furnitureurban.com/wp-content/uploads/2012/05/SI_90400_Avignon_Driftwood1.jpg" },
+    { name: "Appliances", icon: "https://www.paldrop.com/wp-content/uploads/2018/09/must-have-kitchen-appliances.jpeg" },
+    { name: "Flight Bookings", icon: "https://mastermousepatrol.com/wp-content/uploads/2020/08/Airlines-Flight-Booking.png" },
+    { name: "Beauty, Toys & More", icon: "https://i5.walmartimages.com/asr/a8d49608-5414-48e1-9597-909b7bb9140c.b1aa2cad49377ad92e7d52bdf79f3225.jpeg" },
+    { name: "Two Wheelers", icon: "http://1.bp.blogspot.com/-Rn0o-AaFV4c/UudpZKWxBMI/AAAAAAAAE_4/Xx95-ZLxJ3c/s1600/Suzuki+Let%2527s-Blue.jpg" },
   ];
 
   const sectionBg = theme === 'dark' ? 'bg-gray-900' : (theme === 'eyeFriendly' ? 'bg-yellow-100' : 'bg-white');
@@ -953,7 +953,7 @@ const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, sear
   return (
     <>
       {/* Top Category Navigation */}
-      <nav className={`${sectionBg} shadow-sm py-3 px-6 md:px-12 flex items-center justify-around overflow-x-auto whitespace-nowrap rounded-b-lg`}>
+      <nav className={${sectionBg} shadow-sm py-3 px-6 md:px-12 flex items-center justify-around overflow-x-auto whitespace-nowrap rounded-b-lg}>
         {mainCategories.map((category) => (
           <button
             key={category.name}
@@ -966,7 +966,7 @@ const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, sear
               else if (category.name === "Two Wheelers") { /* navigate to two wheelers specific page/section */ }
               else navigateTo('home'); // Fallback
             }}
-            className={`flex flex-col items-center p-2 ${subTextColor} hover:text-indigo-600 hover:bg-gray-100 transition-colors duration-200 min-w-[80px] ${theme === 'dark' ? 'hover:bg-gray-700' : (theme === 'eyeFriendly' ? 'hover:bg-yellow-200' : '')}`}
+            className={flex flex-col items-center p-2 ${subTextColor} hover:text-indigo-600 hover:bg-gray-100 transition-colors duration-200 min-w-[80px] ${theme === 'dark' ? 'hover:bg-gray-700' : (theme === 'eyeFriendly' ? 'hover:bg-yellow-200' : '')}}
           >
             <img src={category.icon} alt={category.name} className="w-6 h-6 mb-1 rounded-full" />
             <span className="text-xs font-medium">{category.name}</span>
@@ -978,13 +978,13 @@ const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, sear
       <Carousel navigateTo={navigateTo} theme={theme} />
 
       {/* Best of Mobiles Section */}
-      <section className={`py-12 px-6 md:px-12 ${sectionBg} m-4 rounded-lg shadow-lg`}>
-        <h3 className={`text-3xl font-bold text-indigo-700 mb-8 ${textColor}`}>Best of Mobiles</h3>
+      <section className={py-12 px-6 md:px-12 ${sectionBg} m-4 rounded-lg shadow-lg}>
+        <h3 className={text-3xl font-bold text-indigo-700 mb-8 ${textColor}}>Best of Mobiles</h3>
         <div className="flex overflow-x-auto space-x-6 pb-4 scrollbar-hide">
           {mobileProducts.map((product, index) => (
             <div
               key={index}
-              className={`flex-none w-48 ${cardBg} rounded-lg shadow-md p-4 text-center border ${borderColor} transform hover:scale-105 transition-transform duration-300 flex flex-col justify-between`}
+              className={flex-none w-48 ${cardBg} rounded-lg shadow-md p-4 text-center border ${borderColor} transform hover:scale-105 transition-transform duration-300 flex flex-col justify-between}
             >
               <div className="cursor-pointer" onClick={() => navigateToProductDetail(product)}>
                 <img
@@ -993,7 +993,7 @@ const LoggedInHomePage = ({ navigateTo, navigateToProductDetail, addToCart, sear
                   className="mx-auto mb-3 w-32 h-32 object-contain rounded-md"
                   onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/128x128/cccccc/000000?text=Item"; }}
                 />
-                <h4 className={`text-md font-semibold mb-1 truncate ${textColor}`}>{product.name}</h4>
+                <h4 className={text-md font-semibold mb-1 truncate ${textColor}}>{product.name}</h4>
                 <p className="text-sm text-red-600 font-medium">{product.price}</p>
               </div>
               <button
